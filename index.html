@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--animate.css cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Hear to Learn UGANDA</title>
+</head>
+<body>
+    <!--navigation bar-->
+    <nav class="bg-brownish flex justify-between md:p-4">
+        <!-- logo-->
+        <div class="p-4 bg-brownish md:flex md:justify-between gap-8">
+            <h1 class="font-bold text-xl md:text-3xl">
+                Hear to learn 
+            </h1>
+           
+        </div>
+        <!--navigation links-->
+        <div class="hidden self-start mt-10  md:flex md:flex-row md:mt-4 md:mb-4 md:gap-8 " id="navLinks">
+            <li class="text-xl text-white list-none hover:text-white"><a href="#">Home</a></li>
+            <li class="text-xl text-textColor list-none hover:text-white"><a href="#">About us</a></li>
+            <li class="text-xl text-textColor list-none hover:text-white"><a href="#">Resources</a></li>
+            <li class="text-xl text-textColor list-none hover:text-white"><a href="#">Partner</a></li>
+            <li class="text-xl text-textColor list-none hover:text-white"><a href="#">News & Events</a></li>
+        </div>
+       
+        <!--menu icon-->
+        <div class="p-4 md:hidden">
+            <img id="menuIcon" onclick="openNav()" src="img/Assets/menuIcon.png" alt="">
+            <img id="closeMenu" onclick="closeNav()" class="hidden" src="img/Assets/close.png" alt="close">
+        </div>
+        <!--Partner button-->
+        <div class="hidden md:block p-4">
+            <button class="bg-white px-8 py-2 rounded-xl"><a href="#">Donate</a></button>
+        </div>
+    </nav>
+    <!-- home page-->
+    <div class="flex flex-col">
+        <!--hero page-->
+        <div class="animate__animated animate__fadeInLeft animate__slower flex flex-col justify-between pb-8 h-screen bg-smallHero bg-no-repeat md:bg-heroImg md:bg md:bg-cover md:h-screen md:py-16 md:px-8">
+            <!--the heading and the paragraph container-->
+            <div class="flex flex-col justify-between p-4 md:justify-around h-full md:w-6/12">
+                <!--the heading-->
+                <h1 class="text-white text-3xl md:text-7xl font-bold">Hear to Learn Uganda</h1>
+                <!--the intro paragraph-->
+                <p class="text-white text-xl text-center md:text-left">
+                Making education accessible for visually impaired learners
+                Hear to Learn Uganda is a project that creates audio textbooks for primary and secondary school learners who are blind in Uganda. Our goal is to improve their access to education and promote inclusive learning.
+                We partner with the Ministry of Education, curriculum developers, teachers, publishers, and local organizations to produce high-quality audio textbooks that are relevant to the Ugandan context. We also provide a website where learners, teachers, and parents can access these audio textbooks and other resources.
+                Join us in our mission to make education accessible for all!
+
+                </p>
+            </div>
+            <!--volunteeering button-->
+            <button class="px-8 py-4 bg-brownish rounded-xl w-40 self-center md:self-start"><a href="#">Volunteer</a></button>
+        </div>
+
+        <!--Impact and About us container-->
+        <div class="flex flex-col bg-brownish md:flex-row md:py-20 md:px-8 ">
+            
+            <!--About us container-->
+            <div class="animate__animated animate__fadeInUp flex flex-col  md:w-6/12 md:gap-8">
+                <h1 class="self-center text-5xl text-white font-bold">About Us</h1>
+                <p class="mr-4 text-xl">Hear to Learn Uganda is a project that was founded in 2022 by a group of passionate individuals who wanted to make a difference in the lives of visually impaired learners in Uganda. We believe that education is a human right and that everyone deserves equal opportunities to learn and grow.
+
+                    Our vision is a world where visually impaired learners can access quality education without barriers. Our mission is to create audio textbooks that are relevant, engaging, and accessible for visually impaired learners in Uganda.
+                    
+                    We work with a team of dedicated staff members, volunteers, partners, and donors who share our values and goals. We are always looking for new ways to improve our project and expand our reach
+                </p>
+            </div>
+
+            <!--Impact container-->
+            <div class="animate__animated animate__fadeInUp animate__delay-2s animate__slower flex flex-col  md:w-6/12 md:gap-8">
+                <h1 class="self-center text-5xl text-white font-bold">Impact</h1>
+                <p class="text-xl">Hear to Learn Uganda has a positive impact on the lives of visually impaired learners and their communities. Some of the benefits of our project are:
+
+                    Improved access to education: Our audio textbooks enable visually impaired learners to access the same curriculum content as their sighted peers, without relying on braille or other costly materials.
+                    Enhanced learning outcomes: Our audio textbooks improve the comprehension, retention, and performance of visually impaired learners, as they can listen and learn at their own pace and convenience.
+                    Increased confidence and self-esteem: Our audio textbooks empower visually impaired learners to participate more actively in class discussions, assignments, and exams, boosting their confidence and self-esteem.
+                    Reduced stigma and discrimination: Our audio textbooks raise awareness and understanding of visual impairment among teachers, parents, and society at large, reducing stigma and discrimination against visually impaired learners.
+                </p>
+            </div>
+        </div>
+
+        <!--patnership logos  container-->
+        <div class="flex flex-col md:p-4 md:py-8 md:gap-8">
+
+            <!--partnership heading-->
+            <h1 class="text-5xl md:self-center font-bold text-brownish">Our Partners</h1>
+            <!--patners logos container-->
+            <div class="flex justify-evenly mt-8">
+                
+                <img class="md:w-28" src="img/moe.png" alt=""><!--ministry of education-->
+                <img class="md:w-28" src="img/o&p.png" alt=""><!--oysters and pearls-->
+                <img class="" src="img/sightSavers.png" alt=""><!--sightsavers uganda-->
+                <img class="md:w-36" src="img/NCDC.png" alt=""><!--ncdc-->
+                <img class="md:w-28" src="img/uppc.png" alt=""><!--uppc-->
+            </div>
+            
+            <!--patner with us button-->
+            <div class="p-4 md:self-center">
+                <button class="bg-brownish px-8 py-4"><a href="#">Partner With Us</a></button>
+            </div>
+        </div>
+
+        <!--testimonials-->
+        <div class="flex flex-col p-4 bg-brownish md:py-8 ">
+
+            <!--testimonial heading-->
+            <h1 class="text-5xl font-bold self-center text-white">Testimonials</h1>
+            <!--testimonial cards container-->
+            <div class="flex flex-col justify-center gap-8 md:flex-row pt-8 md:pt-10">
+
+                <!--testimonial card 1-->
+                <div class="flex flex-col  px-8 pt-4 border-4 rounded-3xl border-brownish border-none bg-grayish shadow-2xl md:w-96">
+                    <!--avatar-->
+                    <img class="w-40 h-40 self-center rounded-full" src="img/wait/dr james okello.jfif" alt="">
+                    
+                    <!--testimony and profession container-->
+                    <div class="flex flex-col p-4 py-6">
+                        <!--testimony-->
+                        <p class="text-xl">“We commend Hear to Learn Uganda for their efforts to create audio textbooks that cater to the needs of visually impaired learners. The audio textbooks are engaging, interactive, and comprehensive. They enhance the teaching and learning process and support learner achievement.”  </p>
+                        <!--name and Profession-->
+                        <div class="flex flex-col justify-between">
+                            <h2 class="text-2xl font-bold">
+                                Ms. Sarah Nalwoga, 
+                            </h2>
+                            <h3 class="text-xl text-brownish">
+                                Head Teacher at Kampala School for the Blind
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!--testimonial card 2-->
+                <div class="flex flex-col px-8 pt-4 border-4 rounded-3xl border-brownish border-none bg-grayish shadow-2xl md:w-96">
+                    <!--avatar-->
+                    <img class="w-40 h-40 self-center rounded-full" src="img/wait/dr james okello.jfif" alt="">
+                    
+                    <!--testimony and profession container-->
+                    <div class="flex flex-col p-4 py-6">
+                        <!--testimony-->
+                        <p class="text-xl">“We support Hear to Learn Uganda’s vision of providing equal opportunities for visually impaired learners through audio textbooks. The audio textbooks are a valuable resource that can improve learning outcomes and empower visually impaired learners.”  </p>
+                        <!--name and Profession-->
+                        <div class="flex flex-col justify-between">
+                            <h2 class="text-2xl font-bold">
+                                Mr. Peter Mwesigwa
+                            </h2>
+                            <h3 class="text-xl text-brownish">
+                                Program Manager at SightSavers Uganda
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!--testimonial card 3-->
+                <div class="flex flex-col px-8 pt-4 border-4 rounded-3xl border-brownish border-none bg-grayish shadow-2xl md:w-96">
+                    <!--avatar-->
+                    <img class="w-40 h-40 self-center rounded-full" src="img/wait/dr james okello.jfif" alt="">
+                    
+                    <!--testimony and profession container-->
+                    <div class="flex flex-col p-4 py-6">
+                        <!--testimony-->
+                        <p class="text-xl text-center">“We are proud to partner with Hear to Learn Uganda on this innovative project that aims to make education more accessible and inclusive for visually impaired learners. The audio textbooks are of high quality and aligned with the national curriculum standards.” </p>
+                        <!--name and Profession-->
+                        <div class="flex flex-col justify-between">
+                            <h2 class="text-2xl font-bold">
+                                Dr. James Okello
+                            </h2>
+                            <h3 class="text-xl text-brownish">
+                                Director of Education at Uganda National Association of the Blind
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <script>
+        let closeMenu = document.getElementById("closeMenu");
+        let menuIcon = document.getElementById("menuIcon");
+        let navLinks = document.getElementById("navLinks");
+
+        function openNav(){
+            navLinks.style.display = "block";
+            closeMenu.style.display = "block";
+            menuIcon.style.display = "none";
+        }
+        function closeNav(){
+            navLinks.style.display = "none";
+            closeMenu.style.display = "none";
+            menuIcon.style.display = "block";
+        };
+
+        window.onload = function(){
+            alert('This website is under development');
+        };
+        
+    </script>
+</body>
+</html>
