@@ -11,9 +11,9 @@
 </head>
 <body>
     <!--navigation bar-->
-    <nav class="bg-brownish flex justify-between md:p-4">
+    <nav class="bg-brownish flex justify-between md:p-3">
         <!-- logo-->
-        <div class="p-4 bg-brownish md:flex md:justify-between gap-8">
+        <div class="p-3 bg-brownish md:flex md:justify-between gap-6">
             <h1 class="font-bold text-xl md:text-3xl">
                 Hear to learn 
             </h1>
@@ -30,8 +30,8 @@
        
         <!--menu icon-->
         <div class="p-4 md:hidden">
-            <img id="menuIcon" onclick="openNav()" src="img/Assets/menuIcon.png" alt="">
-            <img id="closeMenu" onclick="closeNav()" class="hidden" src="img/Assets/close.png" alt="close">
+            <img id="menuIcon" onclick="openNav()" src="img/Assets/menuIcon.png" alt="hamburger menu icon">
+            <img id="closeMenu" onclick="closeNav()" class="hidden" src="img/Assets/close.png" alt="clos button">
         </div>
         <!--Partner button-->
         <div class="hidden md:block p-4">
@@ -41,13 +41,13 @@
     <!-- home page-->
     <div class="flex flex-col">
         <!--hero page-->
-        <div class="animate__animated animate__fadeInLeft animate__slower flex flex-col justify-between pb-8 h-screen bg-smallHero bg-no-repeat md:bg-heroImg md:bg md:bg-cover md:h-screen md:py-16 md:px-8">
+        <div class="animate__animated animate__fadeInLeft animate__slower flex flex-col justify-between gap-4 pb-8 h-screen bg-smallHero bg-no-repeat md:bg-heroImg md:bg md:bg-cover md:h-screen md:py-16 md:px-8 md:pb-24">
             <!--the heading and the paragraph container-->
-            <div class="flex flex-col justify-between p-4 md:justify-around h-full md:w-6/12">
+            <div class="flex flex-col  gap-4  md:justify-around h-full md:w-6/12">
                 <!--the heading-->
-                <h1 class="text-brownish text-3xl md:text-7xl font-bold">Hear to Learn Uganda</h1>
+                <h1 class="text-brownish text-3xl md:text-6xl font-bold">Hear to Learn Uganda</h1>
                 <!--the intro paragraph-->
-                <p class="text-white text-xl text-center md:text-left">
+                <p class="text-white text-base text-center md:text-left">
                 Making education accessible for visually impaired learners
                 Hear to Learn Uganda is a project that creates audio textbooks for primary and secondary school learners who are blind in Uganda. Our goal is to improve their access to education and promote inclusive learning.
                 We partner with the Ministry of Education, curriculum developers, teachers, publishers, and local organizations to produce high-quality audio textbooks that are relevant to the Ugandan context. We also provide a website where learners, teachers, and parents can access these audio textbooks and other resources.
@@ -94,11 +94,11 @@
             <!--patners logos container-->
             <div class="flex justify-evenly mt-8">
                 
-                <img class="md:w-28" src="img/moe.png" alt=""><!--ministry of education-->
-                <img class="md:w-28" src="img/o&p.png" alt=""><!--oysters and pearls-->
-                <img class="" src="img/sightSavers.png" alt=""><!--sightsavers uganda-->
-                <img class="md:w-36" src="img/NCDC.png" alt=""><!--ncdc-->
-                <img class="md:w-28" src="img/uppc.png" alt=""><!--uppc-->
+                <img class="md:w-28" src="img/moe.png" alt="MInistry of education logo"><!--ministry of education-->
+                <img class="md:w-28" src="img/o&p.png" alt="Oysters and pearls logo"><!--oysters and pearls-->
+                <img class="" src="img/sightSavers.png" alt=" sightsavers logo"><!--sightsavers uganda-->
+                <img class="md:w-36" src="img/NCDC.png" alt="national curriculum development center logo"><!--ncdc-->
+                <img class="md:w-28" src="img/uppc.png" alt=" uganda publishing logo"><!--uppc-->
             </div>
             
             <!--patner with us button-->
@@ -197,7 +197,7 @@
             menuIcon.style.display = "block";
         };
 
-        window.onload = function(){
+        //window.onload = function(){
             alert('This website is under development');
         };
         
